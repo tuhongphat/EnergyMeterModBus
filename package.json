@@ -1,0 +1,22 @@
+{
+  "name": "energymetermodbus",
+  "version": "1.0.0",
+  "description": "Thư viện đọc dữ liệu đồng hồ năng lượng (PAC3200, PAC3100, MFM384, A1700,...) qua giao thức Modbus RTU hoặc TCP/IP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuhongphat/EnergyMeterModBus.git"
+  },
+  "author": "Meomeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuhongphat/EnergyMeterModBus/issues"
+  },
+  "homepage": "https://github.com/tuhongphat/EnergyMeterModBus#readme",
+  "dependencies": {
+    "modbus-serial": "^8.0.21-no-serial-port"
+  }
+}
