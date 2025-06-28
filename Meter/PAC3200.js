@@ -1,4 +1,5 @@
 const ModbusRTU = require('modbus-serial');
+const { logSuccess, logError } = require('./common');
 
 class PAC3200 {
     constructor(ip, port, id = 1, parameter, disconnect) {
